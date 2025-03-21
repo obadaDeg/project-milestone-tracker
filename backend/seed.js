@@ -8,7 +8,7 @@ const bcrypt = require("bcryptjs");
 const dotenv = require("dotenv");
 
 // Load models
-const User = require("./models/User");
+const User = require("./models/AppUser");
 const Milestone = require("./models/Milestone");
 const Tracking = require("./models/Tracking");
 const Notification = require("./models/Notification");
